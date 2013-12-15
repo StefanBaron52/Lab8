@@ -10,7 +10,50 @@
 #ifndef MAZE_H_
 #define MAZE_H_
 
+//Motor Part of the Code//
 
+//-------------------------------------------------//
+
+void MoveRightMotorForward();
+
+void MoveLeftMotorForward();
+
+void MoveLeftMotorForwardLarge();
+
+void MoveLeftMotorForwardSmall();
+
+void MoveRightMotorBackward();
+
+void MoveLeftMotorBackward();
+
+void MoveLeft();
+
+void MoveRight();
+
+void InitPinsOut();
+
+void MoveForward();
+
+void MoveBackward();
+
+void ConfigTimer();
+
+//-------------------------------------------------//
+
+//Sensor Part of the Code//
+
+//-------------------------------------------------//
+
+
+unsigned int rightsensor();
+
+unsigned int centersensor();
+
+unsigned int leftsensor();
+
+void initADC10();
+
+//-------------------------------------------------//
 
 
 #endif /* MAZE_H_ */
